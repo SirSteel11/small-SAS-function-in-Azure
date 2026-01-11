@@ -1,0 +1,27 @@
+{
+  "sas_routes": [
+    {
+      "origin": "ARN",
+      "destination": "JFK",
+      "date": "2025-06-15",
+      "cabin": "Business",
+      "max_points": 60000
+    }
+  ],
+  "booking_hotels": [
+    {
+      "name": "Downtown Hotel",
+      "city": "Stockholm",
+      "check_in": "2025-06-15",
+      "check_out": "2025-06-18",
+      "max_price_sek": 2500
+    }
+  ],
+  "settings": {
+    "sas_base_url": "https://www.sas.se/eurobonus/award-trips/",
+    "booking_base_url": "https://www.booking.com/",
+    "headless": true,
+    "alert_ttl_hours": 24,
+    "block_resources": true
+  }
+}
